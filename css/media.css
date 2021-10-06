@@ -1,0 +1,214 @@
+@media (min-width:500px){
+
+    .container {
+        max-width: 450px;
+    }
+     main {
+         max-width: 450px;
+     }
+
+     .me img {
+        max-width: 450px;
+     }
+}
+
+
+@media (min-width:570px){
+    
+    .container{
+        margin-top: 100px
+    }
+
+    .blog {
+        margin-top: 50px;
+    }
+
+}
+@media (min-width:650px) {
+
+    .container {
+        max-width: 550px;
+    }
+
+    button {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    main {
+        max-width: 600px;
+    }
+    .me img{
+        max-width: 500px;
+    }
+}
+
+@media (min-width:800px){
+    
+    .modal img{
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+    }
+
+    .blogs {
+        margin-left: -250px;
+    }
+
+    .container {
+        max-width: 700px;
+    }
+
+    main {
+        max-width: 700px;
+    }
+ 
+    .logo {
+        max-height: 70px;
+    }
+    
+    .fa-bars {
+        font-size: 35px;
+    }
+
+    .all-blogs {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    .blog {
+        flex-direction: row;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .blog h2 {
+        font-size: 30px;
+        max-width: 500px;
+    }
+
+    .blog p {
+        margin-left: 50px;
+    }
+
+    .blog img {
+        margin-top: 100px;
+    }
+
+    .details_paragraph{
+        max-width: 500px;
+    }
+
+@media (min-width:1000px){
+
+    .modal img{
+        width: 500px;
+        height: 500px;
+        border-radius: 20px;
+    }
+
+    .container {
+        max-width: 900px;
+    }
+
+    button {
+        max-width: 400px;
+        max-height: 70px;
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    main {
+        max-width: 900px;
+    }
+    
+    .logo {
+        max-height: 80px;
+    }
+    
+    .fa-bars {
+        font-size: 45px;
+    }
+    
+
+    .all-blogs {
+        max-width: 950px;
+    }
+
+    .latest-games{
+        max-width: 950px;
+    }
+    
+    .blogs img,
+    .latest img{  
+        max-width: 200px;
+    }
+
+    .all-blogs p,
+    .latest-games p {
+        max-width: 350px;
+        margin-left: -30px;
+        font-size: 20px;
+    }
+
+    .all-blogs h2,
+    .latest-games h2{
+        font-size: 25px;
+    }
+    
+    h1 {
+        font-size: 45px;
+        margin-bottom: 60px;
+    }
+
+    .blog img {
+        margin-top: 140px;
+    }
+
+    .blogs {
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width:1300px) {
+    
+    .container {
+        max-width: 1250px;
+    }
+
+    main {
+        max-width: 1200px;
+    }
+
+    .all-blogs,
+    .latest-games {
+        max-width: 1250px;
+    }
+
+    .all-blogs p {
+        margin-left: -100px;
+    }
+
+    .all-blogs h2 {
+        margin-left: -105px;
+    }
+
+    .read-more {
+        margin-left: 20px;
+    }
+    
+}
+@media (min-width:1400px){
+
+    .all-blogs h2 {
+        margin-left: -115px;
+    }
+}
+
+@media (min-width: 1500px){
+    
+    main {
+        max-width: 1300px;
+    }
+}}

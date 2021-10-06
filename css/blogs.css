@@ -1,0 +1,39 @@
+.blogs img{  
+    max-width: 150px;
+    border-radius: 20px;
+}
+
+.all-blogs {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    max-width: 350px;
+    gap: 50px;
+}
+
+.all-blogs p {
+    max-width: 200px;
+    margin-left: -30px;
+}
+
+.all-blogs h2{
+    margin-top: -5px;
+    margin-left: -40px;
+}
+
+.blogs{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.show-more{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.show-more-placement{
+    text-align: center;
+}
