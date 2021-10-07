@@ -71,7 +71,7 @@
         font-size: 35px;
     }
 
-    .all-blogs {
+    .all-blogs, .latest-games {
         grid-template-columns: repeat(4, 1fr);
     }
 
