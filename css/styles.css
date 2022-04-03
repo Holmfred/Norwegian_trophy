@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import "imports/links.css";
 
+html,
+body {
+    height: 100%;
+}
+
 main {
     max-width: 350px;
     margin: auto;
@@ -9,12 +14,15 @@ main {
     justify-content: center;
     align-content: center;
     align-items: center;
+    flex: 1 0 auto;
 }
 
 body {
     background: #f2f2f2;
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
